@@ -24,7 +24,8 @@
 
 ![alt text](https://github.com/ArturRaag/Ristiku_arvutiopetus_2021_2022/blob/main/Arvuti%C3%B5petus_1/joonis_2.PNG "Google Docsi faili loomine")
 
-4. Uuri failide omadusi. Pane kirja:
+# Harjutus 4
+ Uuri failide omadusi. Pane kirja:
 * Failid mahu kasvamise järjekorras.
 * Millised failid on pildi failid ning millised failid on tekstifailid?
 * Pane kirja, mille poolest erinevad txt, pdf ja docx failid?
