@@ -81,3 +81,29 @@ Kolmas väljund annab Errori, sest me korrutame stringi teise stringiga, mis ses
 
 Samuti soovitan kodus proovida ja katsetada igasuguseid muid aritmeetilisi tehted stringidega. Näiteks, mis juhtuks, kui korrutaksite stringi mõne koma arvuga, ehk floatiga?
 
+# input(), type(), str(), int() ja float() käsud
+
+Tihti osutub kasulikuks küsida kasutajalt sisendit.
+Seda saab teha järgmise käsuga:
+```python
+input()
+```
+Sulgude sisse, võib ka midagi kirjutada, mida kasutajale enne sisendi küsimist väljastada. Ehk näiteks:
+```python
+nimi = input("Mis on sinu nimi?: ")
+```
+NB! See käsk salvestab sisendi STRING kujul, isegi kui sisestakse mõni number.
+Andmetüüpe saab kontrollida käsuga:
+```python
+type()
+```
+Kontrollimegi, et kui me sisestame input käsku enda nime asemel mõne numbri, et kas ta salvestub stringina või mõne muu andmetüübina:
+
+```python
+nimi = input("Mis on sinu nimi?: ")
+print(type(nimi))
+```
+Väljundiks saame:
+```python
+<class 'str'>
+```
