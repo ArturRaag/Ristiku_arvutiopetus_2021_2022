@@ -125,7 +125,7 @@ Järgida tuleb aga ka loomuliku loogikat! Näiteks ei oleks ju loogiline teisend
 Ehk veel üks näide:
 Laseme kasutajal sisestada kolmnurga kõrgust ja kolmnurga alust. Seejärel teisendame mõõdud komaarvudeks ja arvutame kolmnurga pindala.
 
-VALE LAHENDUS:
+**VALE LAHENDUS:**
 ```python
 a = input("Sisesta kolmnurga alus: ")
 h = input("Sisesta kolmnurga kõrgus: ")
@@ -140,7 +140,7 @@ TypeError: can't multiply sequence by non-int of type 'str'
 ```
 Ehk kuna "input" jäi stringi kujule, siis loomulikult ei saa me sõnadega pindala arvutada.
 
-ÕIGE LAHENDUS:
+**ÕIGE LAHENDUS:**
 ```python
 a = float(input("Sisesta kolmnurga alus: "))
 h = float(input("Sisesta kolmnurga kõrgus: "))
