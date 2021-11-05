@@ -71,3 +71,13 @@ Väljund:
 "Tere Maailm!Tere Maailm!Tere Maailm!Tere Maailm!Tere Maailm!"
 TypeError
 ```
+
+Ehk nagu näha, esimene väljund "sõna_1" + "sõna_2" annab meile mõlema muutuja kokku liimitud stringid kujul: "Tere Maailm! Minu nimi on Artur!". 
+Siit saame teha esimese järelduse: kahe stringi liitmisel, "kleebitakse" stringid kokku üheks uueks stringiks.
+
+Teine väljund annab meile viiekordse "Tere Maailm!"-a. Ehk kui stringi mõne täisarvuga läbi korrutada, siis see string kleebitakse iseendale järgi määratud arv kordi.
+
+Kolmas väljund annab Errori, sest me korrutame stringi teise stringiga, mis sest, et teine string on number (pane tähele arvul 5 on jutumärkid ümber!).
+
+Samuti soovitan kodus proovida ja katsetada igasuguseid muid aritmeetilisi tehted stringidega. Näiteks, mis juhtuks, kui korrutaksite stringi mõne koma arvuga, ehk floatiga?
+
