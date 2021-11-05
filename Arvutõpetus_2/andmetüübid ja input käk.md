@@ -77,7 +77,7 @@ Siit saame teha esimese järelduse: kahe stringi liitmisel, "kleebitakse" string
 
 Teine väljund annab meile viiekordse "Tere Maailm!"-a. Ehk kui stringi mõne täisarvuga läbi korrutada, siis see string kleebitakse iseendale järgi määratud arv kordi.
 
-Kolmas väljund annab Errori, sest me korrutame stringi teise stringiga, mis sest, et teine string on number (pane tähele arvul 5 on jutumärkid ümber!).
+Kolmas väljund annab Errori, sest me korrutame stringi teise stringiga, mis sest, et teine string on number (pane tähele arvul 5 on jutumärkid ümber!). Teisisõnu, sõna ei saa teise sõnaga läbi korrutada. See ei ole meie jaoks loogiline, rääkimata siis ka arvutist.
 
 Samuti soovitan kodus proovida ja katsetada igasuguseid muid aritmeetilisi tehted stringidega. Näiteks, mis juhtuks, kui korrutaksite stringi mõne koma arvuga, ehk floatiga?
 
