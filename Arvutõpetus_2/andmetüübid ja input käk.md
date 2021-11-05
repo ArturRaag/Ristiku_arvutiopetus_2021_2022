@@ -108,3 +108,49 @@ Väljundiks saame:
 "Mis on sinu nimi?: "35
 <class 'str'>
 ```
+Ja ütlebki, et tegemist on string (str) andmetüübiga.
+Tulevikus tasub siis seda kindlasti meeles pidada, et kui näiteks soovime kasutajalt arvude kujul andmeid küsida ning nendega mingisuguseid arvutusi teha, siis tuleb need "input" andmed teisendada arvulisele kujule.
+
+Andmetüüpe saab teisendada järgmiste käskudega:
+
+```python
+str()
+float()
+int()
+```
+Kus "str()" teisendab sulgude vahel oleva sisu stringiks, "float()" teisendab sulgude vahel oleva sisu komaarvuks ning "int()" teisendab sulgude vahel oleva sisu väikseimaks täisarvuks.
+
+Järgida tuleb aga ka loomuliku loogikat! Näiteks ei oleks ju loogiline teisendada sõna "Tere" ei täisarvuks ega ka komaarvuks. Pigem on see kasulik siis, kui meil on arvud salvestatud stringideks ja oleks vaja need nö "lahti pakkida" numbriteks.
+
+Ehk veel üks näide:
+Laseme kasutajal sisestada kolmnurga kõrgust ja kolmnurga alust. Seejärel teisendame mõõdud komaarvudeks ja arvutame kolmnurga pindala.
+
+VALE LAHENDUS:
+```python
+a = input("Sisesta kolmnurga alus: ")
+h = input("Sisesta kolmnurga kõrgus: ")
+S = (a*h)/2
+print(S)
+```
+Väljund:
+```python
+"Sisesta kolmnurga alus": 5
+"Sisesta kolmnurga kõrgus": 10 
+TypeError: can't multiply sequence by non-int of type 'str'
+```
+Ehk kuna "input" jäi stringi kujule, siis loomulikult ei saa me sõnadega pindala arvutada.
+
+ÕIGE LAHENDUS:
+```python
+a = float(input("Sisesta kolmnurga alus: "))
+h = float(input("Sisesta kolmnurga kõrgus: "))
+S = (a*h)/2
+print(S)
+```
+Väljund:
+```python
+"Sisesta kolmnurga alus": 5
+"Sisesta kolmnurga kõrgus": 10 
+25.0
+```
+Ehk kolmnurga pindala tuli 25.0.
