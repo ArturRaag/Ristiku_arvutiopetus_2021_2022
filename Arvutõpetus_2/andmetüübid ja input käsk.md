@@ -155,7 +155,7 @@ Väljund:
 ```
 Ehk kolmnurga pindala tuli 25.0.
 
-# Mõned skriptid, mida võite läbi proovida ja katsetada
+# Mõned skriptid proovimiseks, katsetamiseks ja mängimiseks
 Skript 1:
 ```python
 tekst="Tere maailm!"
