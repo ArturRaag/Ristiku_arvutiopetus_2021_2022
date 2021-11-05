@@ -6,6 +6,12 @@ Põhilised andmetüübid on:
 
 Andmetüüpe on veelgi, kuid nendega tutvume veidi hiljem.
 
+Etteruttavalt mainime, et käsk
+```python
+print()
+```
+trükkib ekraanile sulgude vahel oleva sisu (stringi kujul)!
+
 # Muutujate deklareerimine
 Selleks, et andmeid koguaeg ümber mitte kirjutada (näiteks mingeid pikkaid valemeid või tekste), võime need andmed salvestada mõne muutuja sisse, kasutades võrdusmärki.
  ```python
@@ -51,3 +57,17 @@ muuta.
 
 Stringid on jutumärkides olev tekst, kusjuures tekst võib sisaldada ka numbreid ja muid sümboleid.
 Stringidega saab teostada järgmisi "tehteid":
+```python
+sõna_1 = "Tere Maailm!"
+sõna_2 = " Minu nimi on Artur!"
+
+print(sõna_1+sõna_2)
+print(sõna_1 * 5)
+print(sõna_1 * "5")
+```
+Väljund:
+```python
+"Tere Maailm! Minu nimi on Artur!"
+"Tere Maailm!Tere Maailm!Tere Maailm!Tere Maailm!Tere Maailm!"
+TypeError
+```
