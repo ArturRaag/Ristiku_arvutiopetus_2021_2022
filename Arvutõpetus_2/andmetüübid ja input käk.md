@@ -97,7 +97,7 @@ Andmetüüpe saab kontrollida käsuga:
 ```python
 type()
 ```
-Kontrollimegi, et kui me sisestame input käsku enda nime asemel mõne numbri, et kas ta salvestub stringina või mõne muu andmetüübina:
+Kontrollimegi, et kui me sisestame input käsku enda nime asemel mõne numbri (näiteks 35), et kas ta salvestub stringina või mõne muu andmetüübina:
 
 ```python
 nimi = input("Mis on sinu nimi?: ")
@@ -105,5 +105,6 @@ print(type(nimi))
 ```
 Väljundiks saame:
 ```python
+Mis on sinu nimi?: 35
 <class 'str'>
 ```
