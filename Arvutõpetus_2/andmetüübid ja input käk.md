@@ -105,6 +105,6 @@ print(type(nimi))
 ```
 Väljundiks saame:
 ```python
-Mis on sinu nimi?: 35
+"Mis on sinu nimi?: "35
 <class 'str'>
 ```
