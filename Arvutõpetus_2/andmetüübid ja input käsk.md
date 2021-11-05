@@ -154,3 +154,27 @@ Väljund:
 25.0
 ```
 Ehk kolmnurga pindala tuli 25.0.
+
+# Mõned skriptid, mida võite läbi proovida ja katsetada
+Skript 1:
+```python
+tekst="Tere maailm!"
+print(tekst)
+```
+Skript 2:
+```python
+nimi=input("Mis on sinu nimi? : ")
+print("Tere "+ nimi)
+```
+Skript 3:
+```python
+nimi=input("Mis on sinu nimi? : ")
+vanus=input("Mis on sinu vanus? : ")
+print("Tere "+nimi + ". Sina oled "+vanus+" aastat vana.")
+```
+Skript 4:
+```python
+vanus_int=int(input("Sisesta uuesti enda vanus: "))
+vanus_sõber_int=int(input("Sisesta enda sõbra vanus: "))
+print("Sa oled oma sõbrast "+str(vanus_int-vanus_sõber_int)+" aastat vanem.")
+```
