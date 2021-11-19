@@ -6,6 +6,7 @@ Meetod tähistusega
 .replace()
 ```
 asendab stringis määratud alamstringit uute alamstringidega.
+Käsu esimene argument on alamstring mida asendada soovitakse, ning teine argument on alamstring millega see esimene asendatakse. 
 
 Näiteks:
 
@@ -17,5 +18,5 @@ print(nimi)
 Väljund:
 
 ```python
-Altul
+"Altul"
 ```
