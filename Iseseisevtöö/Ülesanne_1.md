@@ -1,9 +1,11 @@
-# Ülesanne 1
+# Ülesanne 1.1
 
 Kirjutage programm, mis küsib kasutajalt tema nime ning seejärel kolmnurga alust ning kolmnurga kõrgust (ilma ühikuteta).
-Programmi käivitamisel peab arvuti kasutajat nimeliselt tervitama, kus on vähemalt üks häälik asendatud. Seejärel väljastama ka kolmnurga pindala.
 
-Näiteks:
+Programmi käivitamisel peab arvuti kasutajat nimeliselt tervitama. Viimaks väljastama ka kolmnurga pindala.
+
+
+Näiteks: 
 ```python
 "Sisesta oma nimi: " Artur
 "Sisesta kolmnurga alus: " 8
@@ -13,6 +15,18 @@ Näiteks:
 Väljund:
 
 ```python
-"Tere Altul!"
+"Tere Artur!"
 "Kolmnurga pindala on: 40 ühikut"
+```
+
+# Ülesanne 1.2
+Kirjutage programm, mis küsib kasutajalt tema nime, ning väljastab vigase/naljaka kasutaja nime.
+
+Näiteks võiks programm asendada nime sees mõnda konkreetset häälikut. Kui ma sisestaksin nime "Artur", siis võiks programm asendada kõik "r" tähed "l"-idega.
+
+Ehk:
+
+```python
+"Sisesta oma nimi: " Artur
+"Tere Altul!"
 ```
