@@ -22,7 +22,7 @@ Väljund:
 # Ülesanne 1.2
 Kirjutage programm, mis küsib kasutajalt tema nime, ning väljastab vigase/naljaka kasutaja nime.
 
-Näiteks võiks programm asendada nime sees mõnda konkreetset häälikut. Kui ma sisestaksin nime "Artur", siis võiks programm asendada kõik "r" tähed "l"-idega.
+Näiteks võiks programm asendada nime sees mõnda konkreetset häälikut. Kui ma sisestaksin nime "Artur", siis võiks programm asendada kõik "r" tähed "l"-idega ja väljastada "Altul".
 
 Ehk:
 
