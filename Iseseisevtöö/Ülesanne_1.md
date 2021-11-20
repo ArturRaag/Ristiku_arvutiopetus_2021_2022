@@ -2,7 +2,7 @@
 
 Kirjutage programm, mis küsib kasutajalt tema nime ning seejärel kolmnurga alust ning kolmnurga kõrgust (ilma ühikuteta).
 
-Programmi käivitamisel peab arvuti kasutajat nimeliselt tervitama. Viimaks väljastama ka kolmnurga pindala.
+Programmi käivitamisel peab arvuti kasutajat nimeliselt tervitama ja väljastama ka kolmnurga pindala.
 
 
 Näiteks: 
